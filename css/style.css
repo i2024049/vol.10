@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Shippori Mincho", serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+*{
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.07;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.page-header,
+.page-hero,
+.page-content,
+.page-footer{
+    min-width: 1280px;
+    width: 100%;
+}
+
+.page-header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+    background-color: #fff;
+}
+
+.page-header__inner,
+.page-content__inner{
+    box-sizing: content-box;
+}
+
+.page-header{
+    border-top: #7f9916;
+}
+
+.page-header__inner{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.page-header .logo,
+.page-footer .logo{
+    width: 80x;
+}
+.sns-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sns-list__item{
+    width: 24px;
+}
+.sns-list__item:not(:first-child){
+    margin-left: 16px;
+}
+.page-header__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    justify-content: center;
+    max-width: 1260px;
+}
+.global-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.global-nav > .sns-list{
+    margin-left: 64px;
+}
+.global-nav > .link-button{
+    margin-left: 64px;
+}
+
+.link-button{
+    display: table;
+    width: 140px;
+}
+
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sublogo{
+    text-align: center;
+}
+
+.pote{
+    display: flex;
+    justify-content: space-between;
+    max-width: 956px;
+    margin: 0 auto;
+}
+.achive {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-bottom: 24pc;
+  }
+  
+  .ac-list {
+    width: 40%;
+  }
+  .price{
+    display: flex;
+    justify-content: center;
+  }
+  .button{
+      max-width: 1080px;
+      margin: 0 auto;
+  }
